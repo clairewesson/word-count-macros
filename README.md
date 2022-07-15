@@ -66,7 +66,7 @@ Press `ctrl+shift+8` to hide the gray lines again. </br></br>
 
 ## Download the Code
 
-1. Select the folder "VBA code" in the section above this tutorial or follow the [link](https://github.com/clairewesson/word-count-macros/tree/main/VBA%20code).
+1. Select the folder "VBA code" in the section above this tutorial or follow the [link](https://github.com/clairewesson/word-count-macros/tree/main/VBA).
 2. Select the file titled `wordUsageMacros.bas`. 
 3. In the top right corner of the code, select the `Raw` button.</br>
 ![Raw button](Resources/rawButton.jpg)
