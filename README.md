@@ -23,7 +23,7 @@ Follow links to reach sections.
 * Collapse of all headers 
 
 ### Tutorial Scope
-This tutorial is intended to be read and used by writers who have little to no experience with coding. I've done my best to break things down as simply as possible for ease of us, but if something seems unclear, 
+This tutorial is intended to be read and used by writers who have little to no experience with coding. I've done my best to break things down as simply as possible for ease of use, but if something seems unclear, 
 don't be afraid to flag the issue under the `Issues` tab. I know this sort of thing can seem daunting if you don't have experience with code, and I would love to offer any amount of assistance that I can. </br>
 * **Expected length of time to complete installation:** 10-15 minutes. 
 * This tutorial is built for Windows. I do not have access to macOS, and cannot assist on that front. I would suggest looking up `.bas installation macOS` for further assistance. 
