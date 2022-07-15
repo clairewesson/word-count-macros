@@ -2,15 +2,15 @@
 
 ## Table of Contents
 Follow links to reach sections. 
-1. [Overview](https://github.com/emilybstevens/word-usage-macros#overview)
-2. [Document Formatting Required by Code](https://github.com/emilybstevens/word-usage-macros#document-formatting-required-by-code)
-3. [Using Section Breaks](https://github.com/emilybstevens/word-usage-macros#using-section-breaks)
-4. [Download the code](https://github.com/emilybstevens/word-usage-macros#download-the-code)
-5. [Installation Into Word](https://github.com/emilybstevens/word-usage-macros#installation-into-word)
-6. [Code Alterations](https://github.com/emilybstevens/word-usage-macros#code-alterations)
-7. [Updating Quick Access Toolbar](https://github.com/emilybstevens/word-usage-macros#updating-quick-access-toolbar)
-8. [Using the Macros](https://github.com/emilybstevens/word-usage-macros#using-the-macros)
-9. [Troubleshooting](https://github.com/emilybstevens/word-usage-macros#troubleshooting)
+1. [Overview](https://github.com/clairewesson/word-count-macros#overview)
+2. [Document Formatting Required by Code](https://github.com/clairewesson/word-count-macros#document-formatting-required-by-code)
+3. [Using Section Breaks](https://github.com/clairewesson/word-count-macros#using-section-breaks)
+4. [Download the code](https://github.com/clairewesson/word-count-macros#download-the-code)
+5. [Installation Into Word](https://github.com/clairewesson/word-count-macros#installation-into-word)
+6. [Code Alterations](https://github.com/clairewesson/word-count-macros#code-alterations)
+7. [Updating Quick Access Toolbar](https://github.com/clairewesson/word-count-macros#updating-quick-access-toolbar)
+8. [Using the Macros](https://github.com/clairewesson/word-count-macros#using-the-macros)
+9. [Troubleshooting](https://github.com/clairewesson/word-count-macros#troubleshooting)
 
 ## Overview
 
@@ -29,7 +29,7 @@ don't be afraid to flag the issue under the `Issues` tab. I know this sort of th
 * This tutorial is built for Windows. I do not have access to macOS, and cannot assist on that front. I would suggest looking up `.bas installation macOS` for further assistance. 
 
 ### Additional Notes
-Because of how narrow the capabilities of VBA are, there are some parts of the code that you will have to update yourself - don't worry, I'll walk you through the [process](https://github.com/emilybstevens/word-usage-macros#code-alterations). </br></br> 
+Because of how narrow the capabilities of VBA are, there are some parts of the code that you will have to update yourself - don't worry, I'll walk you through the [process](https://github.com/clairewesson/word-count-macros#code-alterations). </br></br> 
 In addition, there are some notes I'd like to share about the document formatting you'll have to manually complete in order for this code to work. 
 Word itself has several functions that I've taken into account while coding these macros, and they require that you will have already taken advantage of certain functions. 
 1. Full usage of the macros will depend on you manually setting what font/size/spacing you prefer under the Word Styles tab. I have written the code to account for usage of the `Normal` and `Heading 1` styles. 
@@ -66,7 +66,7 @@ Press `ctrl+shift+8` to hide the gray lines again. </br></br>
 
 ## Download the Code
 
-1. Select the folder "VBA code" in the section above this tutorial or follow the [link](https://github.com/emilybstevens/word-usage-macros/tree/main/VBA%20code).
+1. Select the folder "VBA code" in the section above this tutorial or follow the [link](https://github.com/clairewesson/word-count-macros/tree/main/VBA%20code).
 2. Select the file titled `wordUsageMacros.bas`. 
 3. In the top right corner of the code, select the `Raw` button.</br>
 ![Raw button](Resources/rawButton.jpg)
@@ -119,7 +119,7 @@ This will open the code in the editor.
 Make sure that your number change stays in the same format as the line. For example, if you have 5 section breaks prior to Chapter 1, type in `preChap = 5`
 4. The line `titleCount` refers to the number of words you intend to use in each title. If you are following the `Chapter X` format, leave it as `titleCount = 2`. 
 If you intend to use the `Chapter X: Chapter-name` format, change it to `titleCount = 3`.
-See [above](https://github.com/emilybstevens/word-usage-macros#document-formatting-required-by-code) for a more detailed explanation. 
+See [above](https://github.com/clairewesson/word-count-macros#document-formatting-required-by-code) for a more detailed explanation. 
 5. You will have to repeat this process three times, changing the `unique variables` section for the first three macros sections. 
 6. When you have completed those changes, you can exit out of the editor. It will save automatically, so you do not need to manually save it. 
 7. Congrats, you're ready to create the buttons to run the code!
