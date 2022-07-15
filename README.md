@@ -52,7 +52,7 @@ To circumvent any potential loss of previous work, I would suggest making a copy
 I like to keep these pages separate so that if I need to change something on the title page, the reformatting doesn't change the table of contents page. 
 3. Chapter titles will need to be a consistent length. The `New Chapter` macro uses the format "Chapter XX", and I would suggest sticking with that. 
 NOTE: The code currently accounts for two words per chapter title. If you want to make the title longer, you have two options: 
-* You can wait until you have completed your manuscript. If the lengths of your titles are inconsistent, the word counts for each chapter will be wrong. 
+* You can wait until you have completed your manuscript to add a longer title. NOTE: Including a title longer than the code accounts for will result in incorrect word counts.  
 * You can use a longer title, with dashes. Example: `Episode-One: The-Phantom-Menace` counts as two words in code, while `Episode One: The Phantom Menace` counts as five. Use the first option for consistency. 
 
 ## Using Section Breaks
